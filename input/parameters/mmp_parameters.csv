@@ -1,0 +1,10 @@
+template,entity_template,target_id,start_date,end_date,entity_users_column,users_generator,users_multiplier,users_offset,users_random,date_generator,date_multiplier,date_offset,date_random,start_day,end_day,start_day_date,end_day_date,generator,multiplier,day_multiplier,offset,day_offset,random,repeat_multiplier,repeat_offset,repeat_random,revenue_multiplier,revenue_offset,revenue_random
+fetch_appsflyer_data_locker,fetch_apple_search_ads_campaigns,install_apple,2019-01-01,2019-08-29,taps,,0.3,0,40,pr 0 20 60 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.95,-1,0,0,15,0,0,0,0,0,0
+fetch_appsflyer_data_locker,fetch_apple_search_ads_campaigns,purchase_apple,2019-01-01,2019-08-29,taps,,0.03,0,80,pr 0 20 60 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.15,-1,0,0,15,0.5,0,10,5,0,50
+fetch_appsflyer_data_locker,fetch_apple_search_ads_campaigns,signup_apple,2019-01-01,2019-08-29,taps,,0.15,0,35,pr 0 20 60 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.6,-1,0,0,15,0,0,10,0,0,0
+fetch_appsflyer_data_locker,fetch_google_adwords_campaigns,install_google,2019-01-01,2019-08-29,clicks,,0.2,0,30,pr 0 10 60 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.85,-1,0,0,15,0,0,0,5,0,0
+fetch_appsflyer_data_locker,fetch_google_adwords_campaigns,purchase_google,2019-01-01,2019-08-29,clicks,,0.015,0,100,pr 0 10 60 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.1,-1,0,0,15,0.5,0,10,5,0,50
+fetch_appsflyer_data_locker,fetch_google_adwords_campaigns,signup_google,2019-01-01,2019-08-29,clicks,,0.1,0,50,pr 0 10 60 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.4,-1,0,0,15,0,0,10,0,0,0
+fetch_appsflyer_data_locker,fetch_facebook_campaigns,install_facebook,2019-01-01,2019-08-29,clicks,,0.6,0,15,pr 0 20 55 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.9,-1,0,0,15,0,0,0,0,0,0
+fetch_appsflyer_data_locker,fetch_facebook_campaigns,purchase_facebook,2019-01-01,2019-08-29,clicks,,0.05,0,40,pr 0 20 55 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.2,-1,0,0,15,0.5,0,10,5,0,50
+fetch_appsflyer_data_locker,fetch_facebook_campaigns,signup_facebook,2019-01-01,2019-08-29,clicks,,0.4,0,20,pr 0 20 55 90 100,1E-10,1,10,0,365,,2019-08-29,exp,0.5,-1,0,0,15,0,0,10,0,0,0

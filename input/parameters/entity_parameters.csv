@@ -1,0 +1,4 @@
+template,target_id,start_date,end_date,generator,multiplier,date_multiplier,offset,date_offset,random,impressions_multiplier,impressions_random,clicks_multiplier,clicks_random,conversions_multiplier,conversions_random
+fetch_apple_search_ads_campaigns,111,2019-01-01,2019-08-29,pr 0 20 80,0.0001,1,1000,0,15,50,40,0.12,10,0.5,35
+fetch_facebook_campaigns,222,2019-01-01,2019-08-29,pr 0 15 90,0.0001,1,3000,0,30,250,10,0.008,18,0.6,25
+fetch_google_adwords_campaigns,333,2019-01-01,2019-08-29,pr 0 35 120,0.0001,1,3000,0,40,500,25,0.02,20,0.12,25

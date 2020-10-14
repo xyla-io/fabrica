@@ -1,0 +1,15 @@
+disabled,template,table,source_templates,source_tables,source_queries,target_id,source_context,source,source_iterator
+TRUE,fetch_apple_search_ads_keywords,,,,,1,"from hashlib import sha1
+v['sha1'] = sha1",,"v = iter(pd.date_range(end=pd.datetime.today(), periods=10).to_pydatetime())"
+TRUE,custom_fetch_snapchat_campaigns,fetch_snapchat_campaigns,,,,.*,,,"v = iter(pd.date_range(end=pd.datetime.today(), periods=10).to_pydatetime())"
+TRUE,custom_fetch_apple_search_ads_campaigns,fetch_apple_search_ads_campaigns,,,,.*,,,"v = iter(pd.date_range(end=pd.datetime.today(), periods=10).to_pydatetime())"
+TRUE,custom_fetch_facebook_campaigns,fetch_facebook_campaigns,,,,.*,,,"v = iter(pd.date_range(end=pd.datetime.today(), periods=10).to_pydatetime())"
+TRUE,custom_fetch_google_adwords_campaigns,fetch_google_adwords_campaigns,,,,.*,,,"v = iter(pd.date_range(end=pd.datetime.today(), periods=10).to_pydatetime())"
+TRUE,demonstration_fetch_apple_search_ads_campaigns,fetch_apple_search_ads_campaigns,,,,.*,"from datetime import datetime
+v['now'] = datetime.now()",,"v = iter(pd.date_range(end=pd.datetime.today(), periods=3).to_pydatetime())"
+TRUE,demonstration_fetch_google_adwords_campaigns,fetch_google_adwords_campaigns,,,,.*,"from datetime import datetime
+v['now'] = datetime.now()",,"v = iter(pd.date_range(end=pd.datetime.today(), periods=3).to_pydatetime())"
+,demonstration_fetch_appsflyer_data_locker,fetch_appsflyer_data_locker,,fetch_apple_search_ads_campaigns fetch_google_adwords_campaigns,,.*,"from datetime import datetime
+v['now'] = datetime.now()",,"v = [i + ({'date': 'date', 'campaign_name': 'campaignname', 'campaign_id': 'campaignid', 'media_source': 'Apple Search Ads'},) for i in source_tables['fetch_apple_search_ads_campaigns'].iterrows()]
+v += [i + ({'date': 'day', 'campaign_name': 'campaign', 'campaign_id': 'campaign id', 'media_source': 'googleadwords_int'},) for i in source_tables['fetch_google_adwords_campaigns'].iterrows()]"
+TRUE,custom_fetch_apple_search_ads_campaigns,fetch_apple_search_ads_campaigns,,,performance_cube_campaigns,.*,,,v = source_queries['performance_cube_campaigns'].iterrows()
